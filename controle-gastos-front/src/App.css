@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #f3f4f6;
+}
+
+tfoot {
+  font-weight: 700;
+}
+
+select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  outline: none;
+}
+
+select:focus {
+  border-color: #3b82f6;
+}
+
+.dark body {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.dark .card {
+  background: #1f2937;
+}
+
+.dark table {
+  background: #1f2937;
+}
+
+.dark th {
+  background: #111827;
+}
+
+.dark tbody tr:hover {
+  background: #374151;
+}
+
+.dark select {
+  background: #1f2937;
+  color: #f9fafb;
+  border-color: #374151;
+}

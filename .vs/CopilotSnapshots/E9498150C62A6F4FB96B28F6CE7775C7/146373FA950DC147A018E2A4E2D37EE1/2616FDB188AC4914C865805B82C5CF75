@@ -1,0 +1,42 @@
+﻿using ControleGastos.Application.DTOs;
+using ControleGastos.Application.Data;
+using ControleGastos.Domain.Enums;
+using Microsoft.EntityFrameworkCore;
+
+namespace ControleGastos.Application.Services;
+
+public class RelatorioService
+{
+    private readonly AppDbContext _context;
+
+    public RelatorioService(AppDbContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<List<TotalPorPessoaDTO>> ObterTotaisAsync()
+    {
+        var pessoas = await _context.Pessoas
+            .Include(p => p.Transacoes)
+            .ToListAsync();
+
+        return pessoas.Select(p =>
+        {
+            var receitas = p.Transacoes
+                .Where(t => t.Tipo == TipoTransacao.Receita)
+                .Sum(t => t.Valor);
+
+            var despesas = p.Transacoes
+                .Where(t => t.Tipo == TipoTransacao.Despesa)
+                .Sum(t => t.Valor);
+
+            return new TotalPorPessoaDTO
+            {
+                Nome = p.Nome,
+                TotalReceitas = receitas,
+                TotalDespesas = despesas,
+                Saldo = receitas - despesas
+            };
+        }).ToList();
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ControleGastos.Api",
+    "\\ControleGastos.Application",
+    "\\ControleGastos.Application\\Data",
+    "\\ControleGastos.Application\\DTOs",
+    "\\ControleGastos.Application\\DTOs\\Pessoa",
+    "\\ControleGastos.Application\\DTOs\\Transacao",
+    "\\ControleGastos.Application\\Services",
+    "\\ControleGastos.Domain",
+    "\\ControleGastos.Domain\\Enums"
+  ],
+  "SelectedNode": "\\ControleGastos.Api\\Controllers\\RelatorioController.cs",
+  "PreviewInSolutionExplorer": false
+}

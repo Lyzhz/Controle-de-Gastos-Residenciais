@@ -1,0 +1,55 @@
+﻿using ControleGastos.Application.DTOs;
+using ControleGastos.Application.Services;
+using ControleGastos.Application.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using ControleGastos.Domain.Entities;
+
+namespace ControleGastos.Api.Controllers;
+
+// Controller responsável por operações de transações
+[ApiController]
+[Route("api/transacoes")]
+public class TransacoesController : ControllerBase
+{
+    private readonly TransacaoService _service;
+    private readonly AppDbContext _context;
+
+    // Injeta o DbContext e o service de transações
+    public TransacoesController(AppDbContext context, TransacaoService service)
+    {
+        _context = context;
+        _service = service;
+    }
+    // Cria uma nova transação
+    [HttpPost]
+    public async Task<IActionResult> Create([FromBody] CreateTransacaoDTO dto)
+    {
+        try
+        {
+            Console.WriteLine("ENVIANDO:");
+
+            var transacao = new Transacao
+            {
+                // exemplo — ajuste conforme seu model
+                Descricao = dto.Descricao,
+                Valor = dto.Valor,
+                CategoriaId = dto.CategoriaId,
+                PessoaId = dto.PessoaId
+            };
+
+            _context.Transacoes.Add(transacao);
+            await _context.SaveChangesAsync();
+
+            return Ok(transacao);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new
+            {
+                message = ex.Message,
+                inner = ex.InnerException?.Message
+            });
+        }
+    }
+}

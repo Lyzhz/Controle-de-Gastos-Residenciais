@@ -1,0 +1,20 @@
+# .NET
+bin/
+obj/
+
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# SQLite
+*.db
+*.sqlite

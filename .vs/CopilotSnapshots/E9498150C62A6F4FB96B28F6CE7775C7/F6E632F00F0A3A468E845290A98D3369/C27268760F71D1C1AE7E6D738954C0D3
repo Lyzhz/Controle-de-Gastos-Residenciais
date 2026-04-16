@@ -1,0 +1,55 @@
+﻿using ControleGastos.Application.DTOs;
+using ControleGastos.Application.Services;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ControleGastos.Api.Controllers;
+
+// Controller responsável por operações de transações
+[ApiController]
+[Route("api/transacoes")]
+public class TransacoesController : ControllerBase
+{
+    private readonly TransacaoService _service;
+
+    // Injeta o service de transações (regra de negócio fica fora do controller)
+    public TransacoesController(TransacaoService service)
+    {
+        _service = service;
+    }
+
+    // Cria uma nova transação
+    [HttpPost]
+    public async Task<IActionResult> Create([FromBody] CreateTransacaoDTO dto)
+    {
+        try
+        {
+            // Delega a criação para o service
+            var result = await _service.CriarAsync(dto);
+
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            // Retorna erro de validação/regra de negócio
+            // (mensagem vem do service)
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpGet("pessoas/{id}/transacoes")]
+    public async Task<IActionResult> GetPorPessoa(Guid id)
+    {
+        var transacoes = await _context.Transacoes
+            .Where(t => t.PessoaId == id)
+            .Select(t => new
+            {
+                t.Descricao,
+                t.Valor,
+                t.Tipo,
+                t.Data
+            })
+            .ToListAsync();
+
+        return Ok(transacoes);
+    }
+}

@@ -1,0 +1,76 @@
+﻿using ControleGastos.Application.Data;
+using ControleGastos.Application.Services;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AppDbContext>(opt =>
+    opt.UseSqlite("Data Source=gastos.db"));
+
+
+builder.Services.AddScoped<TransacaoService>();
+builder.Services.AddScoped<RelatorioService>();
+
+builder.Services.AddControllers();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+app.UseCors("AllowFrontend");
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+app.MapControllers();
+
+// Ensure database schema has the Data column on Transacoes (upgrade lightweight)
+using (var scope = app.Services.CreateScope())
+{
+    try
+    {
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        var conn = db.Database.GetDbConnection();
+        conn.Open();
+
+        using var cmd = conn.CreateCommand();
+        cmd.CommandText = "PRAGMA table_info('Transacoes');";
+        using var reader = cmd.ExecuteReader();
+        var hasData = false;
+        while (reader.Read())
+        {
+            if (reader.GetString(1) == "Data")
+            {
+                hasData = true;
+                break;
+            }
+        }
+
+        if (!hasData)
+        {
+            using var addCmd = conn.CreateCommand();
+            // Add Data column as TEXT with default current timestamp
+            addCmd.CommandText = "ALTER TABLE Transacoes ADD COLUMN Data TEXT NOT NULL DEFAULT (datetime('now'));";
+            addCmd.ExecuteNonQuery();
+        }
+
+        conn.Close();
+    }
+    catch
+    {
+        // ignore - startup should proceed even if this check fails
+    }
+}
+
+app.Run();

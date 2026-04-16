@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Teste\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Api\\Controllers\\PessoasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Api\\Controllers\\PessoasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\DTOs\\Pessoa\\PessoaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\DTOs\\Pessoa\\PessoaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\DTOs\\Pessoa\\CreatePessoaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\DTOs\\Pessoa\\CreatePessoaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\DTOs\\Transacao\\TransacaoDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\DTOs\\Transacao\\TransacaoDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\DTOs\\Transacao\\CreateTransacaoDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\DTOs\\Transacao\\CreateTransacaoDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Api\\Controllers\\TransacoesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Api\\Controllers\\TransacoesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\Services\\TransacaoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\Services\\TransacaoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Api\\Controllers\\CategoriasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Api\\Controllers\\CategoriasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\DTOs\\Categoria\\CategoriaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\DTOs\\Categoria\\CategoriaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\DTOs\\Categoria\\CreateCategoriaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\DTOs\\Categoria\\CreateCategoriaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Domain\\Enums\\Enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Domain\\Enums\\Enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\Services\\RelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\Services\\RelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Api\\Controllers\\RelatorioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Api\\Controllers\\RelatorioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Infrastructure\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Infrastructure\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Application\\DTOs\\TotalPorPessoaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Application\\DTOs\\TotalPorPessoaDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Domain\\Entities\\Transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Domain\\Entities\\Transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Domain\\Entities\\Pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Domain\\Entities\\Pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\ControleGastos.Domain\\Entities\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControleGastos.Domain\\Entities\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PessoaDTO.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\DTOs\\Pessoa\\PessoaDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\DTOs\\Pessoa\\PessoaDTO.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\DTOs\\Pessoa\\PessoaDTO.cs",
+              "RelativeToolTip": "ControleGastos.Application\\DTOs\\Pessoa\\PessoaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:18:10.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreatePessoaDTO.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\DTOs\\Pessoa\\CreatePessoaDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\DTOs\\Pessoa\\CreatePessoaDTO.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\DTOs\\Pessoa\\CreatePessoaDTO.cs",
+              "RelativeToolTip": "ControleGastos.Application\\DTOs\\Pessoa\\CreatePessoaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:17:47.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransacaoDTO.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\DTOs\\Transacao\\TransacaoDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\DTOs\\Transacao\\TransacaoDTO.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\DTOs\\Transacao\\TransacaoDTO.cs",
+              "RelativeToolTip": "ControleGastos.Application\\DTOs\\Transacao\\TransacaoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:29:12.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateTransacaoDTO.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\DTOs\\Transacao\\CreateTransacaoDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\DTOs\\Transacao\\CreateTransacaoDTO.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\DTOs\\Transacao\\CreateTransacaoDTO.cs",
+              "RelativeToolTip": "ControleGastos.Application\\DTOs\\Transacao\\CreateTransacaoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:28:52.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\DTOs\\Categoria\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\DTOs\\Categoria\\CategoriaDTO.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\DTOs\\Categoria\\CategoriaDTO.cs",
+              "RelativeToolTip": "ControleGastos.Application\\DTOs\\Categoria\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:22:16.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCategoriaDTO.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\DTOs\\Categoria\\CreateCategoriaDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\DTOs\\Categoria\\CreateCategoriaDTO.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\DTOs\\Categoria\\CreateCategoriaDTO.cs",
+              "RelativeToolTip": "ControleGastos.Application\\DTOs\\Categoria\\CreateCategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:21:35.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Api\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Api\\Controllers\\CategoriasController.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Api\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "ControleGastos.Api\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:12:59.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransacaoService.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\Services\\TransacaoService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\Services\\TransacaoService.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\Services\\TransacaoService.cs",
+              "RelativeToolTip": "ControleGastos.Application\\Services\\TransacaoService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:40:02.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PessoasController.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Api\\Controllers\\PessoasController.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Api\\Controllers\\PessoasController.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Api\\Controllers\\PessoasController.cs",
+              "RelativeToolTip": "ControleGastos.Api\\Controllers\\PessoasController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:42:43.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Domain\\Enums\\Enums.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Domain\\Enums\\Enums.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Domain\\Enums\\Enums.cs",
+              "RelativeToolTip": "ControleGastos.Domain\\Enums\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:38:13.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RelatorioController.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Api\\Controllers\\RelatorioController.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Api\\Controllers\\RelatorioController.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Api\\Controllers\\RelatorioController.cs",
+              "RelativeToolTip": "ControleGastos.Api\\Controllers\\RelatorioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:43:15.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransacoesController.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Api\\Controllers\\TransacoesController.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Api\\Controllers\\TransacoesController.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Api\\Controllers\\TransacoesController.cs",
+              "RelativeToolTip": "ControleGastos.Api\\Controllers\\TransacoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:43:00.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ControleGastos.Application\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:52:00.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ControleGastos.Infrastructure\\Data\\AppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:40:55.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelatorioService.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\Services\\RelatorioService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\Services\\RelatorioService.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\Services\\RelatorioService.cs",
+              "RelativeToolTip": "ControleGastos.Application\\Services\\RelatorioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:40:29.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Api\\Program.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Api\\Program.cs",
+              "RelativeToolTip": "ControleGastos.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:58:43.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TotalPorPessoaDTO.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Application\\DTOs\\TotalPorPessoaDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Application\\DTOs\\TotalPorPessoaDTO.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Application\\DTOs\\TotalPorPessoaDTO.cs",
+              "RelativeToolTip": "ControleGastos.Application\\DTOs\\TotalPorPessoaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:39:21.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Transacao.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Domain\\Entities\\Transacao.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Domain\\Entities\\Transacao.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Domain\\Entities\\Transacao.cs",
+              "RelativeToolTip": "ControleGastos.Domain\\Entities\\Transacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:37:37.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Domain\\Entities\\Pessoa.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Domain\\Entities\\Pessoa.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Domain\\Entities\\Pessoa.cs",
+              "RelativeToolTip": "ControleGastos.Domain\\Entities\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:36:22.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\Teste\\ControleGastos.Domain\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "ControleGastos.Domain\\Entities\\Categoria.cs",
+              "ToolTip": "D:\\Teste\\ControleGastos.Domain\\Entities\\Categoria.cs",
+              "RelativeToolTip": "ControleGastos.Domain\\Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T23:36:56.69Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
