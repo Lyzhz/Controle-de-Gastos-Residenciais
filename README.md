@@ -126,6 +126,7 @@ http://localhost:5000/swagger
 
 ## Execução do Projeto
 ```bash
+cd controle-gastos-front
 npm install
 npm run dev
 ```
