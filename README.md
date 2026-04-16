@@ -23,10 +23,10 @@ O sistema foi desenvolvido com foco em clareza, consistência de interface e sep
 
 O projeto está organizado em camadas:
 
-Controle de Gastos Residenciais/
-├── ControleGastos.Api → API (controllers)
-├── ControleGastos.Application → regras de negócio e serviços
-├── ControleGastos.Domain → entidades e enums
+Controle de Gastos Residenciais/<br>
+├── ControleGastos.Api → API (controllers)<br>
+├── ControleGastos.Application → regras de negócio e serviços<br>
+├── ControleGastos.Domain → entidades e enums<br>
 ├── front → aplicação React (interface)
 
 
