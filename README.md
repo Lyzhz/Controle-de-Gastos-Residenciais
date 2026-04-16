@@ -108,7 +108,6 @@ Controle de Gastos Residenciais/
 ### Backend
 
 ```bash
-cd ControleGastos.Api
 dotnet restore
 dotnet ef database update
 dotnet run
@@ -127,7 +126,6 @@ http://localhost:5000/swagger
 
 ## Execução do Projeto
 ```bash
-cd front
 npm install
 npm run dev
 ```
