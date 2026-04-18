@@ -50,7 +50,7 @@ export default function Transacoes() {
     const pessoa = pessoas.find(p => p.id === form.pessoaId);
 
     if (pessoa && pessoa.idade < 18 && form.tipo === 0) {
-      alert("Menor de idade não pode ter receita 👀");
+      alert("Menor de idade não pode ter receita.");
       return;
     }
 
